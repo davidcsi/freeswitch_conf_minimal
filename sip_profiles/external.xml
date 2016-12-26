@@ -37,6 +37,7 @@
     <!--<param name="disable-srv503" value="true"/>-->
     <!-- This could be set to "passive" -->
     <param name="local-network-acl" value="localnet.auto"/>
+    <param name="apply-inbound-acl" value="domains"/>
     <param name="manage-presence" value="false"/>
 
     <!-- used to share presence info across sofia profiles
@@ -55,7 +56,7 @@
     <!--<param name="aggressive-nat-detection" value="true"/>-->
     <param name="inbound-codec-negotiation" value="generous"/>
     <param name="nonce-ttl" value="60"/>
-    <param name="auth-calls" value="false"/>
+    <param name="auth-calls" value="true"/>
     <param name="inbound-late-negotiation" value="true"/>
     <param name="inbound-zrtp-passthru" value="true"/> <!-- (also enables late negotiation) -->
     <!--
